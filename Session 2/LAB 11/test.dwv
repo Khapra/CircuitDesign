@@ -1,0 +1,24 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+
+
+entity test is 
+
+ port(
+		a	: in	std_logic;
+		b	: in	std_logic;
+		cin	: in	std_logic;
+		s	: out	std_logic;
+		cout	: out	std_logic
+	);
+
+end test;
+
+
+architecture arch1 of test is
+
+begin
+
+  -- Your VHDL code defining the model goes here
+
+end arch1;
